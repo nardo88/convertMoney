@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="scripts/script.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__wrapper">
+                <div class="logo">
+                    <img src="./img/logo.png" alt="logo">
+                </div>
+                <nav class="navigation">
+                    <a href="#!" class="navigation__link">Главная</a>
+                    <a href="#!" class="navigation__link">О нас</a>
+                    <a href="#!" class="navigation__link">Курсы</a>
+                    <a href="#!" class="navigation__link">Статистика</a>
+                    <a href="#!" class="navigation__link">Банки</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section class="main">
+        <div class="container">
+            <div class="main__wrapper">
+                <div class="main__content">
+                    <div class="main__column">
+                        <h2 class="main__title">У меня есть</h2>
+                        <div class="main__have ">
+                            <button data-valute="RUB" class="have valute active">RUB</button>
+                            <button data-valute="EUR" class="have valute">EUR</button>
+                            <button data-valute="USD" class="have valute">USD</button>
+                        </div>
+
+                        <div><input class="main__input" type="text"></div>
+                    </div>
+                    <button class="main__reverse"></button>
+                    <div class="main__column">
+                        <h2 class="main__title">Хочу приобрести</h2>
+                        <div class="main__need ">
+                            <button data-valute="RUB" class="need valute active">RUB</button>
+                            <button data-valute="EUR" class="need valute">EUR</button>
+                            <button data-valute="USD" class="need valute">USD</button>
+                        </div>
+                        <div class="main__result">0</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="bg">
+        <img src="./img/bac.jpg" alt="">
+    </div>
+</body>
+</html>
